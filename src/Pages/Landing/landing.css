@@ -1,0 +1,214 @@
+
+
+.landing_page {
+    width: 90%;
+    margin: 120px auto;
+}
+.p_i_i_t {
+    margin-left: 10px;
+}
+.partners-items {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.top_component {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.top_component_img {
+    width: 100%;
+}
+.top_component_text {
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+}
+img.top_component_img-com {
+    width: 100%;
+}
+.top_com_txt_big {
+    font-size: xx-large;
+    font-family: 'Exo', sans-serif;
+}
+.top_com_txt_small {
+    font-size: large;
+    margin: 10px 0px;
+}
+button.top_com_txt_button {
+    width: 50%;
+    padding: 10px;
+    margin: 27px 0px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 10px 20px -10px #4785bed6;
+    background: linear-gradient(45deg, #1395d8, #ff4b61);
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+}
+.float_comp {
+    display: flex;
+    box-shadow: 0px 8px 30px -10px #47285000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    background: #4728503c;
+    color: white;
+    border-radius: 10px;
+    margin: 90px 0px;
+}
+.float_comp-box_item {
+    padding: 10px;
+    width: 100%;
+    background: #47285032;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.float_comp-box_item_t {
+    font-size: x-large;
+    font-family: 'Exo', sans-serif;
+}
+
+.landing_why_i-icon_0 {
+    background: #4b84bc;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+}
+.landing_why_i-icon_1 {
+    background: #ffb109;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+}
+.landing_why_i-icon_2 {
+    background: #472850;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-content: center;
+}
+.landing_why_i_0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.landing_why_i_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    margin: 10px;
+    height: 150px;
+    padding: 0px;
+    box-shadow: -1px 2px 20px 0px #00000047;
+    border-radius: 20px;
+    justify-content: center;
+}
+.landing_why_i_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.landing_why {
+    display: flex;
+    align-items: baseline;
+}
+
+.whyus{
+    
+   
+    font-size: x-large;
+    margin: 40px 0px;
+
+}
+.txt-top{
+    margin-left: 30px;
+}
+.package-header {
+    font-size: xx-large;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.package-comp {
+    padding: 20px;
+    background: #3e3c3c69;
+    color: white;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+.package-comp-older {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-last-sec {
+    margin: 20px 0px;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .landing_page {
+        width: 80%;
+        margin:150 auto;
+    }
+    .top_component {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 0px;
+    }
+    .top_component_img {
+        width: 100%;
+    }
+    .package-comp {
+        padding: 20px;
+        background: #3e3c3c69;
+        color: white;
+        margin: 20px 20px;
+        height: 100%;
+        width: 40%;
+        border-radius: 10px;
+    }
+    .top_component_text {
+        width: 100%;
+        height: 309px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Exo', sans-serif;
+    }
+    .package-comp-older {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

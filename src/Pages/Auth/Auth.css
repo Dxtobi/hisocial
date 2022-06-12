@@ -1,0 +1,72 @@
+.input-div {
+    width: 100%;
+    background: #4645455e;
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.input-dive-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-login-info {
+    font-size: larger;
+    margin: 20px 0px;
+}
+button.input-btn-login {
+    padding: 26px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: none;
+    background: linear-gradient(45deg, #1742c6, #13aadd);
+    color: white;
+    font-size: larger;
+}
+.full__stop1 {
+    border-radius: 67px;
+    color: #dddd02;
+    background: #dddd02;
+}
+.big-login-info {
+    font-size: xx-large;
+    margin: 30px 0px;
+}
+.link-no-dec {
+    color: #dddd02;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.input-dive-input input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    font-size: large;
+    outline: none;
+    color: white;
+}
+.select-comp-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.select-comp-disc {
+    font-size: x-large;
+}
+.select-comp-flex-div {
+    background: linear-gradient(45deg, #1749c7, #13abdd);
+    padding: 10px;
+    margin: 20px 0px;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+}
+.select-comp-flex-div-h {
+    font-size: xx-large;
+    margin: 10px 0px;
+}

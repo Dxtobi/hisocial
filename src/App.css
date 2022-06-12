@@ -1,0 +1,110 @@
+
+
+.App {
+  text-align: center;
+}
+
+.menu-togle{
+display: block;
+}
+.toggle {
+  display: none;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.header__mlist {
+  display: none;
+}
+
+.header_list_item {
+  margin: 0px 10px;
+}
+
+._header-sign-btn:hover {
+  color: #ff4b61;
+}
+.header_brand {
+  background: linear-gradient(45deg, #182ec1, #0dbde1fa);
+  padding:10px 20px;
+  border-radius: 4px 25px 2px 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.header__side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000000c9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+}
+.footer__ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px;
+}
+
+.footer-big {
+  font-size: x-large;
+  margin: 20px 0px;
+}
+.footer-input {
+  border: 1px solid;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+.footer-input button {
+  border: none;
+  width: 56px;
+  color: white;
+  background: #154ac6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.footer-input input {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  background: none;
+  outline: none;
+}
+.footer-small {
+  margin: 30px;
+  text-align: center;
+}
+._box_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+  margin: 20px;
+  border-radius: 10px;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header__mlist {
+      display: flex;
+    }
+    .toggle {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+    .menu-togle{
+      display: none;
+      }
+}

@@ -1,0 +1,119 @@
+
+
+
+.task-disc {
+    font-size: xxx-large;
+}
+
+.welcome-dashboard-devider {
+    height: 100%;
+    background: azure;
+    width: 5px;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: -1px 5px 10px 0px #000000a1;
+}
+.task-amount {
+    width: 35%;
+    font-size: xx-large;
+}
+.welcome-available {
+    font-size: x-large;
+    margin: 30px 0px;
+}
+.welcome-available-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trans-type {
+    font-size: x-large;
+    margin-left: 10px;
+}
+.trans-amount {
+    font-size: x-large;
+}
+
+.green{
+    background-color: #00b521;
+    color: white;
+}
+
+.trans-comp_first {
+    display: flex;
+    align-items: center;
+}
+.welcome-afi {
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+    outline: none;
+}
+.active-indicator {
+    margin: 62px 0px;
+    font-size: x-large;
+}
+
+.trans-comp_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+
+.welcome-afi-icon-comp {
+    margin-bottom: 20px;
+}
+.welcome-afi-text-comp {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+    box-shadow: 0px 13px 20px -5px #f09433;
+}
+.twitter {
+    background: #0651f3;
+    background: linear-gradient(45deg, #0d348b, #164bc7, #1098d6);
+    color: white;
+    box-shadow: 0px 13px 20px -5px #0651f3;
+}
+.whatsapp {
+    background: #00b521;
+    background: linear-gradient(76deg, #057c1f, #26c500);
+    color: white;
+    box-shadow: 0px 13px 20px -5px #1aaa0c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
